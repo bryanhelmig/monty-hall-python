@@ -4,7 +4,7 @@ The [Monty Hall problem](https://en.wikipedia.org/wiki/Monty_Hall_problem) is qu
 
 Intuitively it doesn't quite make sense why you are better off switching, but as soon as you try to formalize it via sets you'll likely notice the operations you have to do remove several doors from the possible set (both your chosen door AND Monty's revealed door) yield a greater chance of winning.
 
-The output of the script is below, but I'd encourage everyont to try modeling this with code like `set(range(door_count)) - {chosen_door, revealed_door}`!
+The output of the script is below, but I'd encourage everyont to try modeling this with code like `set(range(door_count)) - {chosen_door, revealed_door}`! Otherwise, [check out the code](https://github.com/bryanhelmig/monty-hall-python/blob/master/main.py#L13-L21).
 
 ```
 $ python3 main.py
